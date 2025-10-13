@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Train+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Train+One&display=swap");
+@import url("mobile.css");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #074643;
+}
+nav {
+  background-color: #398e8a;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: inter;
+}
+.menubar {
+  display: none;
+}
+nav .logo img {
+  width: 100px;
+  margin-right: 220px;
+}
+nav .btns img {
+  width: 20px;
+}
+
+nav .links {
+  gap: 2rem;
+  align-items: center;
+  display: flex;
+}
+nav .links a {
+  text-decoration: none;
+  color: white;
+}
+nav .btns {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 2px solid #dabfec;
+  border-radius: 15px;
+  padding: 0.4rem 1rem;
+  margin-left: 185px;
+}
+nav .btns span {
+  color: white;
+  font-size: 0.8rem;
+}
+header {
+  margin-left: 130px;
+  margin-top: 250px;
+  color: white;
+  font-size: 20px;
+  font-family: inter;
+}
+header #font {
+  font-family: train one;
+}
+header #another {
+  font-family: inter;
+  font-size: 21px;
+}
+header .img {
+  position: relative;
+  left: 350px;
+  bottom: 180px;
+  width: 25rem;
+}
+header .start {
+  position: relative;
+  bottom: 440px;
+  border: 2px solid #000000;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  width: 130px;
+  height: 35px;
+  padding: 0.2rem 1rem;
+  font-size: 17px;
+  color: white;
+  background-color: black;
+}
+header .lorem {
+  position: relative;
+  bottom: 485px;
+  left: 235px;
+  font-size: 15px;
+}
+header .number {
+  position: relative;
+  bottom: 655px;
+  left: 635px;
+  border: 2px solid #ffffff;
+  border-radius: 35px;
+  display: flex;
+  align-items: center;
+  width: 140px;
+  height: 135px;
+  background-color: white;
+}
+header #four {
+  position: relative;
+  top: 20px;
+  right: 30px;
+  color: #000000;
+  font-size: 15px;
+}
+header #ten {
+  position: relative;
+  bottom: 40px;
+  left: 30px;
+  color: #000000;
+}
+header .dot {
+  position: relative;
+  bottom: 660px;
+  left: 213px;
+}
+
+/* responsiveness */
+/* mobile */
