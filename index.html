@@ -31,10 +31,11 @@
       </div>
       <div class="btns">
         <img src="assets/Vector.png" alt="" />
-        <span>Download CV</span>
+        <a id="load" href="">Download CV</a>
       </div>
     </nav>
     <header>
+      
       <div class="text">
         <h1 id="font">HELLO I AM</h1>
         <h2>Lorem Ipsum</h2>
@@ -43,26 +44,97 @@
           adipisicing elit. Omnis, commodi!
         </h3>
       </div>
+        <div class="start">
+        <a id="art" href="">Start Consulting</a>
+        </div>
+      
+      <div class="lorem">        
+        <img id="dot" src="assets/Ellipse 4.png" alt="" /> 
+        <p id="lorem">Lorem ipsum dolor sit.</p> 
+      </div>
 
       <div class="img">
         <img class="img" src="assets/Ellipse 1.png" alt="" />
       </div>
+      
 
-      <div class="start">
-        <p>Start Consulting</p>
-      </div>
 
-      <div class="lorem">
-        <p id="lorem">Lorem ipsum dolor sit.</p>
-      </div>
       <div class="number">
         <h1 id="ten">10k</h1>
         <h2 id="four">Lorem ipsum dolor sit.</h2>
       </div>
-      <div class="dot">
-        <img src="assets/Ellipse 4.png" alt="" />
       </div>
     </header>
-    <section class="About"></section>
+    <main>
+    <section class="about">
+    <div class="about-left">
+      <h2>About Me</h2>
+      <p class="subtitle">I like creating a cool design project</p>
+
+      <div class="buttons">
+        <button class="btn"><i class="fa-solid fa-download"></i> DOWNLOAD CV</button>
+        <div class="socials">
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+      </div>
+
+      <div class="info">
+        <p><strong>Age:</strong> 29</p>
+        <p><strong>Residence:</strong> USA</p>
+        <p><strong>Address:</strong> Lorem ipsum dolor sit amet</p>
+        <p><strong>E-mail:</strong> email@example.com</p>
+        <p><strong>Phone:</strong> 011254098751</p>
+        <p><strong>Freelance:</strong> Available</p>
+      </div>
+    </div>
+
+    <div class="about-right">
+      <p class="intro-text">
+        Lorem ipsum dolor sit amet consectetur. Nibh est a ut dignissim dolor amet ultricies sit vitae. 
+        Turpis lorem libero erat mattis fermentum. Erat lectus pretium auctor diam mattis vulputate.
+      </p>
+
+      <h3 class="signature">Karem <span>Marko</span></h3>
+
+      <div class="stats-grid">
+        <div class="stat-box" data-value="50">
+          <div class="bar"></div>
+          <h4>50%</h4>
+          <p>Lorem ipsum</p>
+        </div>
+        <div class="stat-box" data-value="75">
+          <div class="bar"></div>
+          <h4>75%</h4>
+          <p>Lorem ipsum</p>
+        </div>
+        <div class="stat-box" data-value="38">
+          <div class="bar"></div>
+          <h4>38%</h4>
+          <p>Lorem ipsum</p>
+        </div>
+        <div class="stat-box" data-value="63">
+          <div class="bar"></div>
+          <h4>63%</h4>
+          <p>Lorem ipsum</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  </main>
+
+  <script>
+    // Animate progress bars
+    window.addEventListener("DOMContentLoaded", () => {
+      document.querySelectorAll(".stat-box").forEach(box => {
+        const bar = box.querySelector(".bar");
+        const value = box.getAttribute("data-value");
+        setTimeout(() => {
+          bar.style.width = value + "%";
+        }, 500);
+      });
+    });
+  </script>
   </body>
 </html>

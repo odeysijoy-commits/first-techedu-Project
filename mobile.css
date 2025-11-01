@@ -2,24 +2,26 @@
   nav {
     flex-direction: column;
   }
-  nav .logo {
+  /* nav .logo {
     position: relative;
     right: 20px;
   }
   nav .links {
     flex-direction: column;
     text-align: center;
-  }
+  } */
   nav .links a {
     border-bottom: 2px solid grey;
-    width: 98vw;
-    padding-bottom: 0.5rem;
+    display: none;
+  
+    
   }
   nav .btns {
     position: relative;
     right: 88px;
     bottom: 5px;
     margin-top: 1rem;
+    display: none;
   }
   .menubar{
     position: relative;
@@ -31,4 +33,15 @@
  
 
   }
+  header {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-bottom: 250px;
+  color: white;
+  font-size: 20px;
+  font-family: inter;
+  height: 50px;
+}
+
 }
